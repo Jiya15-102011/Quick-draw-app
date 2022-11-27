@@ -1,0 +1,42 @@
+body{
+    background-color: plum;
+}
+#d{
+    font-size:30px;
+    float:left;
+  
+}
+#e{
+    font-size:30px;
+    float:right;
+   
+}
+#show_sketch{
+    float :right;
+}
+#f{
+background-color: blue;
+margin: 0;
+text-align: center;
+}
+p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinite;
+    }
+    @keyframes example {
+        from {box-shadow: 1px 1px 38px grey;}
+        to {box-shadow: 1px 1px 38px white;}
+    }
+    sketch to be drawn{
+color: red;
+    }
